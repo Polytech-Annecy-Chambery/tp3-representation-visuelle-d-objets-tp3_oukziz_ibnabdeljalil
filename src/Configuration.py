@@ -54,7 +54,7 @@ class Configuration:
     def initializePyGame(self):
         pygame.init()
         # Sets the screen size.
-        pygame.display.set_mode((400, 300), pygame.DOUBLEBUF | pygame.OPENGL)
+        pygame.display.set_mode((600, 400), pygame.DOUBLEBUF | pygame.OPENGL)
         # Gets pygame screen
         self.screen = pygame.display.get_surface()
 
